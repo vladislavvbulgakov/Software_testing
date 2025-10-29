@@ -1,0 +1,22 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "stryker": "cross-env NODE_OPTIONS=--experimental-vm-modules stryker run"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@stryker-mutator/core": "^9.2.0",
+    "@stryker-mutator/jest-runner": "^9.2.0",
+    "chai": "^6.2.0",
+    "cheerio": "^1.1.2",
+    "cross-env": "^10.1.0",
+    "jest": "^30.2.0",
+    "sinon-chai": "^4.0.1"
+  }
+}

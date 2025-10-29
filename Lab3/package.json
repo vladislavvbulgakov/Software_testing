@@ -1,0 +1,17 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@stryker-mutator/core": "^9.3.0",
+    "@stryker-mutator/jest-runner": "^9.3.0",
+    "jest": "^30.2.0"
+  }
+}
